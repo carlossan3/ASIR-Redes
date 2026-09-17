@@ -9,22 +9,22 @@ import d2 from 'astro-d2';
 const unidades = [
   {
     code: 'U1',
-    slug: 'U01.Fundamentos',
+    slug: 'es/U01-Fundamentos',
     label: 'Fundamentos de redes',
   },
 ];
 
 const unidadesExpandidasES = [
   {
-    slug: 'U01-Fundamentos/U01.01.Comunicacion_y_red_de_datos_ES',
+    slug: 'es/U01-Fundamentos/U01.01.Comunicacion_y_red_de_datos_ES',
     label: '1 · Comunicación y red de datos',
   },
   {
-    slug: 'U01-Fundamentos/U01.02.Componentes_y_primera_representacion_ES',
+    slug: 'es/U01-Fundamentos/U01.02.Componentes_y_primera_representacion_ES',
     label: '2 · Componentes y primera representación',
   },
   {
-    slug: 'U01-Fundamentos/U01.03.Tipos_de_red_y_arquitecturas_de_servicio_ES',
+    slug: 'es/U01-Fundamentos/U01.03.Tipos_de_red_y_arquitecturas_de_servicio_ES',
     label: '3 · Tipos de red y arquitecturas de servicio',
   },
 ];
