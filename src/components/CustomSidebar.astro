@@ -1,33 +1,54 @@
 ---
-const currentPath = Astro.url.pathname;
-const isEn = currentPath.includes('/ASIR-Redes/en/') || currentPath.startsWith('/en/');
+const pathname = Astro.url.pathname;
+const isEn = pathname.includes('/ASIR-Redes/en/') || pathname.startsWith('/en/');
 
-const esLinks = [
-  { label: '1 · Comunicación y red de datos', href: '/ASIR-Redes/es/U01/U01.01.Comunicacion_y_red_de_datos_ES/' },
-  { label: '2 · Componentes y primera representación', href: '/ASIR-Redes/es/U01/U01.02.Componentes_y_primera_representacion_ES/' },
-  { label: '3 · Tipos de red y arquitecturas de servicio', href: '/ASIR-Redes/es/U01/U01.03.Tipos_de_red_y_arquitecturas_de_servicio_ES/' },
+const esItems = [
+  { 
+    label: '1 · Comunicación y red de datos', 
+    href: '/ASIR-Redes/es/u01/u0101comunicacion_y_red_de_datos_es/' 
+  },
+  { 
+    label: '2 · Componentes y primera representación', 
+    href: '/ASIR-Redes/es/u01/u0102componentes_y_primera_representacion_es/' 
+  },
+  { 
+    label: '3 · Tipos de red y arquitecturas de servicio', 
+    href: '/ASIR-Redes/es/u01/u0103tipos_de_red_y_arquitecturas_de_servicio_es/' 
+  },
 ];
 
-const enLinks = [
-  { label: '1 · Communication and data networks', href: '/ASIR-Redes/en/U01/U01.01.Communication_and_data_networks_EN/' },
-  { label: '2 · Components and first network representation', href: '/ASIR-Redes/en/U01/U01.02.Components_and_first_network_representation_EN/' },
-  { label: '3 · Network types and service architectures', href: '/ASIR-Redes/en/U01/U01.03.Network_types_and_service_architectures_EN/' },
+const enItems = [
+  { 
+    label: '1 · Communication and data networks', 
+    href: '/ASIR-Redes/en/u01/u0101communication_and_data_networks_en/' 
+  },
+  { 
+    label: '2 · Components and first network representation', 
+    href: '/ASIR-Redes/en/u01/u0102components_and_first_network_representation_en/' 
+  },
+  { 
+    label: '3 · Network types and service architectures', 
+    href: '/ASIR-Redes/en/u01/u0103network_types_and_service_architectures_en/' 
+  },
 ];
 
-const links = isEn ? enLinks : esLinks;
-const unitTitle = isEn ? 'U1 · Network Fundamentals' : 'U1 · Fundamentos de redes';
+const items = isEn ? enItems : esItems;
+const title = isEn ? 'U1 · Network Fundamentals' : 'U1 · Fundamentos de redes';
 ---
 
 <nav class="custom-sidebar">
-  <div class="group-title">{unitTitle}</div>
-  <ul>
-    {links.map(item => (
-      <li>
-        <a href={item.href} class={currentPath === item.href ? 'active' : ''}>
-          {item.label}
-        </a>
-      </li>
-    ))}
+  <div class="group-title">{title}</div>
+  <ul class="link-list">
+    {items.map((item) => {
+      const isActive = pathname.toLowerCase() === item.href.toLowerCase();
+      return (
+        <li>
+          <a href={item.href} class={isActive ? 'active' : ''}>
+            {item.label}
+          </a>
+        </li>
+      );
+    })}
   </ul>
 </nav>
 
@@ -40,23 +61,29 @@ const unitTitle = isEn ? 'U1 · Network Fundamentals' : 'U1 · Fundamentos de re
     font-weight: 600;
     color: var(--sl-color-white);
     padding: 0.5rem 1rem;
+    margin-bottom: 0.25rem;
   }
-  ul {
+  .link-list {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
   }
-  li a {
+  .link-list li a {
     display: block;
     padding: 0.4rem 1rem;
     color: var(--sl-color-gray-2);
     text-decoration: none;
     font-size: var(--sl-text-sm);
+    line-height: 1.4;
+    border-inline-start: 2px solid transparent;
   }
-  li a:hover {
+  .link-list li a:hover {
     color: var(--sl-color-white);
   }
-  li a.active {
+  .link-list li a.active {
     color: var(--sl-color-accent-high);
     font-weight: 600;
     background-color: var(--sl-color-accent-low);
