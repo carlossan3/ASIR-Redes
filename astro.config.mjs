@@ -55,7 +55,7 @@ const getUnidadesSidebar = (apartados) => {
         items: [
           {
             slug: unidad.slug,
-            label: '🏠 Índice de la unidad',
+            label: 'Índice de la unidad',
           },
           ...apartados,
         ],
@@ -73,11 +73,12 @@ export default defineConfig({
   site: 'https://carlossan3.github.io',
   base: '/ASIR-Redes',
 
+  // Configuración global de i18n en Astro
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en'],
     routing: {
-      prefixDefaultLocale: false // 'false' mantiene la raíz principal en tu idioma por defecto
+      prefixDefaultLocale: false
     }
   },
 
@@ -93,6 +94,8 @@ export default defineConfig({
         '@fontsource/geist-sans',
       ],
 
+      // Sincronizado con Starlight (defaultLocale debe ser una clave existente aquí)
+      defaultLocale: 'es',
       locales: {
         es: {
           label: 'Español',
@@ -103,7 +106,7 @@ export default defineConfig({
               label: 'Inicio',
             },
             {
-              label: 'Unidades de trabajo',
+              label: 'Unidades',
               items: getUnidadesSidebar(unidadesExpandidasES),
             },
           ],
