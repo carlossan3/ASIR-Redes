@@ -32,43 +32,44 @@ export default defineConfig({
         },
       },
 
-sidebar: [
+	  sidebar: [
         {
           label: 'U1 · Fundamentos de redes',
           translations: { en: 'U1 · Network Fundamentals' },
           collapsed: false,
           items: [
-            // Entradas en Español
+            // ESPAÑOL
             {
               label: '1 · Comunicación y red de datos',
-              link: '/ASIR-Redes/es/u01/u0101comunicacion_y_red_de_datos_es/',
-              attrs: { class: 'es-only' },
+              link: '/es/U01/U01.01.Comunicacion_y_red_de_datos_ES/',
+              attrs: { class: 'nav-es' },
             },
             {
               label: '2 · Componentes y primera representación',
-              link: '/ASIR-Redes/es/u01/u0102componentes_y_primera_representacion_es/',
-              attrs: { class: 'es-only' },
+              link: '/es/U01/U01.02.Componentes_y_primera_representacion_ES/',
+              attrs: { class: 'nav-es' },
             },
             {
               label: '3 · Tipos de red y arquitecturas de servicio',
-              link: '/ASIR-Redes/es/u01/u0103tipos_de_red_y_arquitecturas_de_servicio_es/',
-              attrs: { class: 'es-only' },
+              link: '/es/U01/U01.03.Tipos_de_red_y_arquitecturas_de_servicio_ES/',
+              attrs: { class: 'nav-es' },
             },
-            // Entradas en Inglés
+
+            // INGLÉS
             {
               label: '1 · Communication and data networks',
-              link: '/ASIR-Redes/en/u01/u0101communication_and_data_networks_en/',
-              attrs: { class: 'en-only' },
+              link: '/en/U01/U01.01.Communication_and_data_networks_EN/',
+              attrs: { class: 'nav-en' },
             },
             {
               label: '2 · Components and first network representation',
-              link: '/ASIR-Redes/en/u01/u0102components_and_first_network_representation_en/',
-              attrs: { class: 'en-only' },
+              link: '/en/U01/U01.02.Components_and_first_network_representation_EN/',
+              attrs: { class: 'nav-en' },
             },
             {
               label: '3 · Network types and service architectures',
-              link: '/ASIR-Redes/en/u01/u0103network_types_and_service_architectures_en/',
-              attrs: { class: 'en-only' },
+              link: '/en/U01/U01.03.Network_types_and_service_architectures_EN/',
+              attrs: { class: 'nav-en' },
             },
           ],
         },

@@ -386,22 +386,14 @@
   background: linear-gradient(135deg, #040c15 0%, #0a1e30 40%, #1a4060 100%) !important;
 }
 
-/* Ocultar el menú en inglés cuando estás navegando en español */
-:root[lang="es"] .sidebar-en {
+/* Cuando el idioma de la página es español, ocultar los ítems de inglés */
+html[lang="es"] aside .nav-en,
+html[lang="es"] aside li:has(.nav-en) {
   display: none !important;
 }
 
-/* Ocultar el menú en español cuando estás navegando en inglés */
-:root[lang="en"] .sidebar-es {
-  display: none !important;
-}
-
-/* Si estás en la versión en español, no muestres enlaces marcados para inglés */
-:root[lang="es"] a.en-only {
-  display: none !important;
-}
-
-/* Si estás en la versión en inglés, no muestres enlaces marcados para español */
-:root[lang="en"] a.es-only {
+/* Cuando el idioma de la página es inglés, ocultar los ítems de español */
+html[lang="en"] aside .nav-es,
+html[lang="en"] aside li:has(.nav-es) {
   display: none !important;
 }
