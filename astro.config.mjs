@@ -11,6 +11,10 @@ export default defineConfig({
     '/ASIR-Redes/': '/ASIR-Redes/es/',
   },
 
+  redirects: {
+    '/': '/es/',
+  },
+
   integrations: [
     starlight({
       title: 'Redes',
