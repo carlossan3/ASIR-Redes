@@ -395,3 +395,13 @@
 :root[lang="en"] .sidebar-es {
   display: none !important;
 }
+
+/* Si estás en la versión en español, no muestres enlaces marcados para inglés */
+:root[lang="es"] a.en-only {
+  display: none !important;
+}
+
+/* Si estás en la versión en inglés, no muestres enlaces marcados para español */
+:root[lang="en"] a.es-only {
+  display: none !important;
+}
