@@ -34,16 +34,18 @@ export default defineConfig({
       },
 
 sidebar: [
-        {
-          label: 'U1 · Fundamentos de redes',
-          translations: { en: 'U1 · Network fundamentals' },
-          items: [
-            {
-              autogenerate: { directory: 'es/U01-Fundamentos' },
-            },
-          ],
-        },
-      ],
+  {
+    label: 'U1 · Fundamentos de redes',
+    translations: { en: 'U1 · Network Fundamentals' },
+    items: [
+      {
+        // Pon el nombre EXACTO de la carpeta que contiene los temas dentro de es/ y en/
+        // OJO: SIN "es/" delante. Si la carpeta se llama U01, pon 'U01'
+        autogenerate: { directory: 'U01' },
+      },
+    ],
+  },
+],
 
       tableOfContents: false,
 
