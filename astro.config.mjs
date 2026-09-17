@@ -32,15 +32,17 @@ export default defineConfig({
         },
       },
 
-	  sidebar: [
+sidebar: [
         {
           label: 'U1 · Fundamentos de redes',
           translations: { en: 'U1 · Network fundamentals' },
           collapsed: false,
-          autogenerate: { directory: 'U01' },
+          items: [
+            { autogenerate: { directory: 'U01' } },
+          ],
         },
       ],
-	  
+
       tableOfContents: false,
 
       components: {
