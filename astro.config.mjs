@@ -9,7 +9,7 @@ import d2 from 'astro-d2';
 const unidades = [
   {
     code: 'U1',
-    slug: 'U01-Fundamentos',
+    slug: 'U01.Fundamentos',
     label: 'Fundamentos de redes',
   },
 ];
@@ -26,6 +26,14 @@ const unidadesExpandidasES = [
   {
     slug: 'U01-Fundamentos/U01.03.Tipos_de_red_y_arquitecturas_de_servicio_ES',
     label: '3 · Tipos de red y arquitecturas de servicio',
+  },
+];
+
+const unidadesEN = [
+  {
+    code: 'U1',
+    slug: 'en/U01.Fundamentals',
+    label: 'Network fundamentals',
   },
 ];
 
