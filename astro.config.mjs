@@ -83,10 +83,10 @@ export default defineConfig({
 
   integrations: [
     starlight({
-      title: 'Redes Locales',
+      title: 'Redes',
 
       description:
-        'Apuntes de Redes Locales — Teoría explícita, práctica progresiva y diagnóstico. CC BY-SA 4.0',
+        'Apuntes de ASIR-Redes',
 
       customCss: [
         './src/styles/custom.css',
@@ -97,6 +97,7 @@ export default defineConfig({
         es: {
           label: 'Español',
           lang: 'es',
+		  path: 'es',
           sidebar: [
             {
               slug: 'index',
