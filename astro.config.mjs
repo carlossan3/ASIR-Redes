@@ -15,21 +15,12 @@ export default defineConfig({
     starlight({
       title: 'Redes',
       description: 'Apuntes de ASIR-Redes',
-
-      customCss: [
-        './src/styles/custom.css',
-      ],
+      customCss: ['./src/styles/custom.css'],
 
       defaultLocale: 'es',
       locales: {
-        es: {
-          label: 'Español',
-          lang: 'es',
-        },
-        en: {
-          label: 'English',
-          lang: 'en',
-        },
+        es: { label: 'Español', lang: 'es' },
+        en: { label: 'English', lang: 'en' },
       },
 
       tableOfContents: false,
@@ -46,26 +37,7 @@ export default defineConfig({
           href: 'https://github.com/carlossan3/ASIR-Redes',
         },
       ],
-
-      head: [
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'theme-color',
-            content: '#2563eb',
-          },
-        },
-        {
-          tag: 'link',
-          attrs: {
-            rel: 'icon',
-            type: 'image/svg+xml',
-            href: '/ASIR-Redes/favicon.svg',
-          },
-        },
-      ],
     }),
-
     d2(),
   ],
 });
