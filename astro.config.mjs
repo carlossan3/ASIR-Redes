@@ -40,17 +40,17 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
-              slug: 'es/u01-fundamentos/u01.01.comunicacion_y_red_de_datos_es',
+              slug: 'es/u01-Fundamentos/u01.01.comunicacion_y_red_de_datos_es',
               label: '1 · Comunicación y red de datos',
               translations: { en: '1 · Communication and data networks' },
             },
             {
-              slug: 'es/u01-fundamentos/u01.02.componentes_y_primera_representacion_es',
+              slug: 'es/u01-Fundamentos/u01.02.componentes_y_primera_representacion_es',
               label: '2 · Componentes y primera representación',
               translations: { en: '2 · Components and first network representation' },
             },
             {
-              slug: 'es/u01-fundamentos/u01.03.tipos_de_red_y_arquitecturas_de_servicio_es',
+              slug: 'es/u01-Fundamentos/u01.03.tipos_de_red_y_arquitecturas_de_servicio_es',
               label: '3 · Tipos de red y arquitecturas de servicio',
               translations: { en: '3 · Network types and service architectures' },
             },
