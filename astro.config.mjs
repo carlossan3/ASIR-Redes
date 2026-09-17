@@ -46,7 +46,7 @@ const unidadesExpandidasEN = [
 
 const getUnidadesSidebar = (apartados) => {
   return unidades.map((unidad) => {
-    const label = `${unidad.emoji} ${unidad.code} · ${unidad.label}`;
+    const label = `${unidad.code} · ${unidad.label}`;
 
     if (apartados && apartados.length > 0) {
       return {
@@ -55,7 +55,7 @@ const getUnidadesSidebar = (apartados) => {
         items: [
           {
             slug: unidad.slug,
-            label: 'Índice de la unidad',
+            label: 'Indice de la unidad',
           },
           ...apartados,
         ],
@@ -73,15 +73,6 @@ export default defineConfig({
   site: 'https://carlossan3.github.io',
   base: '/ASIR-Redes',
 
-  // Configuración global de i18n en Astro
-  i18n: {
-    defaultLocale: 'es',
-    locales: ['es', 'en'],
-    routing: {
-      prefixDefaultLocale: false
-    }
-  },
-
   integrations: [
     starlight({
       title: 'Redes Locales',
@@ -94,7 +85,6 @@ export default defineConfig({
         '@fontsource/geist-sans',
       ],
 
-      // Sincronizado con Starlight (defaultLocale debe ser una clave existente aquí)
       defaultLocale: 'es',
       locales: {
         es: {
@@ -106,7 +96,7 @@ export default defineConfig({
               label: 'Inicio',
             },
             {
-              label: 'Unidades',
+              label: 'Unidades de trabajo',
               items: getUnidadesSidebar(unidadesExpandidasES),
             },
           ],
@@ -114,13 +104,14 @@ export default defineConfig({
         en: {
           label: 'English',
           lang: 'en',
+          path: 'en',
           sidebar: [
             {
               slug: 'en/index',
               label: 'Home',
             },
             {
-              label: 'Units',
+              label: 'Study Units',
               items: getUnidadesSidebar(unidadesExpandidasEN),
             },
           ],
@@ -160,7 +151,6 @@ export default defineConfig({
       ],
     }),
 
-    // Convierte los bloques ```d2 de Markdown en diagramas.
     d2(),
   ],
 });
