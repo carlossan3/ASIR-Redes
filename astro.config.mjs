@@ -6,13 +6,8 @@ export default defineConfig({
   site: 'https://carlossan3.github.io',
   base: '/ASIR-Redes',
 
-  redirects: {
-    '/ASIR-Redes': '/ASIR-Redes/es',
-    '/ASIR-Redes/': '/ASIR-Redes/es/',
-  },
-
-  redirects: {
-    '/': '/es/',
+redirects: {
+    '/': '/ASIR-Redes/es/',
   },
 
   integrations: [
