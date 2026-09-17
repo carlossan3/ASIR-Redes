@@ -385,3 +385,13 @@
 :root[data-theme="dark"] .home-page .hero {
   background: linear-gradient(135deg, #040c15 0%, #0a1e30 40%, #1a4060 100%) !important;
 }
+
+/* Ocultar el menú en inglés cuando estás navegando en español */
+:root[lang="es"] .sidebar-en {
+  display: none !important;
+}
+
+/* Ocultar el menú en español cuando estás navegando en inglés */
+:root[lang="en"] .sidebar-es {
+  display: none !important;
+}

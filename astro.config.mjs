@@ -31,30 +31,47 @@ export default defineConfig({
           lang: 'en',
         },
       },
-	  
-sidebar: [
-  {
-    label: 'U1 · Fundamentos de redes',
-    translations: { en: 'U1 · Network Fundamentals' },
-    items: [
-      {
-        slug: 'es/u01/u0101comunicacion_y_red_de_datos_es',
-        label: '1 · Comunicación y red de datos',
-        translations: { en: '1 · Communication and data networks' },
-      },
-      {
-        slug: 'es/u01/u0102componentes_y_primera_representacion_es',
-        label: '2 · Componentes y primera representación',
-        translations: { en: '2 · Components and first network representation' },
-      },
-      {
-        slug: 'es/u01/u0103tipos_de_red_y_arquitecturas_de_servicio_es',
-        label: '3 · Tipos de red y arquitecturas de servicio',
-        translations: { en: '3 · Network types and service architectures' },
-      },
-    ],
-  },
-],
+
+	  sidebar: [
+        {
+          label: 'U1 · Fundamentos de redes',
+          attrs: { class: 'sidebar-es' },
+          collapsed: false,
+          items: [
+            {
+              label: '1 · Comunicación y red de datos',
+              link: '/ASIR-Redes/es/U01/U01.01.Comunicacion_y_red_de_datos_ES/',
+            },
+            {
+              label: '2 · Componentes y primera representación',
+              link: '/ASIR-Redes/es/U01/U01.02.Componentes_y_primera_representacion_ES/',
+            },
+            {
+              label: '3 · Tipos de red y arquitecturas de servicio',
+              link: '/ASIR-Redes/es/U01/U01.03.Tipos_de_red_y_arquitecturas_de_servicio_ES/',
+            },
+          ],
+        },
+        {
+          label: 'U1 · Network Fundamentals',
+          attrs: { class: 'sidebar-en' },
+          collapsed: false,
+          items: [
+            {
+              label: '1 · Communication and data networks',
+              link: '/ASIR-Redes/en/U01/U01.01.Communication_and_data_networks_EN/',
+            },
+            {
+              label: '2 · Components and first network representation',
+              link: '/ASIR-Redes/en/U01/U01.02.Components_and_first_network_representation_EN/',
+            },
+            {
+              label: '3 · Network types and service architectures',
+              link: '/ASIR-Redes/en/U01/U01.03.Network_types_and_service_architectures_EN/',
+            },
+          ],
+        },
+      ],
 
       tableOfContents: false,
 
