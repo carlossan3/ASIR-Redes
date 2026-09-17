@@ -82,7 +82,6 @@ export default defineConfig({
 
       customCss: [
         './src/styles/custom.css',
-        '@fontsource/geist-sans',
       ],
 
       defaultLocale: 'es',
