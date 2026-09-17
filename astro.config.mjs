@@ -37,7 +37,7 @@ export default defineConfig({
         {
           label: 'Inicio',
           translations: { en: 'Home' },
-          slug: 'es/index',
+          slug: 'es',
         },
         {
           label: 'U1 · Fundamentos de redes',
