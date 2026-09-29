@@ -6,9 +6,19 @@ export default defineConfig({
   site: 'https://carlossan3.github.io',
   base: '/ASIR-Redes',
 
+  i18n: {
+    locales: ['es', 'en'],
+    defaultLocale: 'es',
+
+    routing: {
+      prefixDefaultLocale: true,
+      redirectToDefaultLocale: true,
+    },
+  },
+
   integrations: [
     starlight({
-      title: 'Planificación y Administración de Redes',
+      title: 'Redes',
       description:
         'Apuntes bilingües de Planificación y Administración de Redes de 1.º de ASIR.',
 
@@ -21,6 +31,7 @@ export default defineConfig({
           label: 'Español',
           lang: 'es',
         },
+
         en: {
           label: 'English',
           lang: 'en',
