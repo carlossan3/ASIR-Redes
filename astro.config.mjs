@@ -6,27 +6,31 @@ export default defineConfig({
   site: 'https://carlossan3.github.io',
   base: '/ASIR-Redes',
 
-redirects: {
-    '/': '/ASIR-Redes/es/',
-  },
-
   integrations: [
     starlight({
-      title: 'Redes',
-      description: 'Apuntes de ASIR-Redes',
+      title: 'Planificación y Administración de Redes',
+      description:
+        'Apuntes bilingües de Planificación y Administración de Redes de 1.º de ASIR.',
+
       customCss: ['./src/styles/custom.css'],
 
       defaultLocale: 'es',
+
       locales: {
-        es: { label: 'Español', lang: 'es' },
-        en: { label: 'English', lang: 'en' },
+        es: {
+          label: 'Español',
+          lang: 'es',
+        },
+        en: {
+          label: 'English',
+          lang: 'en',
+        },
       },
 
       tableOfContents: false,
 
       components: {
         ThemeProvider: './src/components/Accesibilidad.astro',
-        Sidebar: './src/components/CustomSidebar.astro',
       },
 
       social: [
@@ -37,6 +41,7 @@ redirects: {
         },
       ],
     }),
+
     d2(),
   ],
 });

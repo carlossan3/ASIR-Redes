@@ -12,7 +12,7 @@ description: "Network Planning and Administration Notes (ASIR) — 10 study unit
 </div>
 
 <div align="center" style="margin-bottom:2rem;">
-  <a href="/ASIR-Redes/en/U01-Fundamentals" style="display:inline-block;padding:0.75rem 2rem;background:linear-gradient(135deg,#2563eb,#1a4060);color:#fff;border-radius:8px;text-decoration:none;font-weight:600;margin:0.25rem 0.5rem;">Start with Unit 01</a>
+  <a href="/ASIR-Redes/en/u01/" style="display:inline-block;padding:0.75rem 2rem;background:linear-gradient(135deg,#2563eb,#1a4060);color:#fff;border-radius:8px;text-decoration:none;font-weight:600;margin:0.25rem 0.5rem;">Start with Unit 01</a>
   <a href="https://github.com/carlossan3/ASIR-Redes" style="display:inline-block;padding:0.75rem 2rem;background:var(--sl-color-gray-5);color:var(--sl-color-white);border-radius:8px;text-decoration:none;font-weight:600;margin:0.25rem 0.5rem;">View on GitHub</a>
 </div>
 
@@ -61,7 +61,7 @@ U09  Dynamic Routing
 U10  WAN, Internet, and NAT
 ```
 
-## 📚 Study Units
+## Study Units
 
 <div class="unit-grid">
 
@@ -70,13 +70,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U01</span>
     <span class="ra">LO1</span>
   </div>
-  <a href="/ASIR-Redes/en/U01-Fundamentals" class="title-link">
+  <a href="/ASIR-Redes/en/u01/" class="title-link">
     U01. Fundamentals and Architecture
   </a>
   <p class="desc">
     Foundations, reference models, architectural design, and fundamental networking operating principles.
   </p>
-  <a href="/ASIR-Redes/en/U01-Fundamentals" class="unit-link">👉 Start here 👈</a>
+  <a href="/ASIR-Redes/en/u01/" class="unit-link">Start here</a>
 </div>
 
 <div class="unit-card">
@@ -84,13 +84,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U02</span>
     <span class="ra">LO1</span>
   </div>
-  <a href="/ASIR-Redes/en/U02-Layers-encapsulation" class="title-link">
+  <a href="/ASIR-Redes/en/u02/" class="title-link">
     U02. Layers, Encapsulation, and Analysis
   </a>
   <p class="desc">
     OSI and TCP/IP models, frame and packet flows, core protocols, and traffic inspection with network analyzers.
   </p>
-  <a href="/ASIR-Redes/en/U02-Layers-encapsulation" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u02/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
@@ -98,13 +98,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U03</span>
     <span class="ra">LO2</span>
   </div>
-  <a href="/ASIR-Redes/en/U03-Infrastructure-connectivity" class="title-link">
+  <a href="/ASIR-Redes/en/u03/" class="title-link">
     U03. Infrastructure and Connectivity
   </a>
   <p class="desc">
     Guided and wireless transmission media, structured cabling systems, server racks, and physical connection equipment.
   </p>
-  <a href="/ASIR-Redes/en/U03-Infrastructure-connectivity" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u03/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
@@ -112,13 +112,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U04</span>
     <span class="ra">LO2</span>
   </div>
-  <a href="/ASIR-Redes/en/U04-IPv4-subnetting" class="title-link">
+  <a href="/ASIR-Redes/en/u04/" class="title-link">
     U04. IPv4, Subnetting, VLSM, CIDR, and DHCP
   </a>
   <p class="desc">
     IPv4 addressing scheme design, fixed and variable-length subnet mask calculation, CIDR aggregation, and automatic allocation with DHCP.
   </p>
-  <a href="/ASIR-Redes/en/U04-IPv4-subnetting" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u04/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
@@ -126,13 +126,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U05</span>
     <span class="ra">LO2</span>
   </div>
-  <a href="/ASIR-Redes/en/U05-IPv6" class="title-link">
+  <a href="/ASIR-Redes/en/u05/" class="title-link">
     U05. IPv6 and Autoconfiguration
   </a>
   <p class="desc">
     IPv6 address architecture, unicast and multicast scopes, NDP resolution mechanisms, SLAAC, and DHCPv6 deployment.
   </p>
-  <a href="/ASIR-Redes/en/U05-IPv6" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u05/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
@@ -140,13 +140,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U06</span>
     <span class="ra">LO3</span>
   </div>
-  <a href="/ASIR-Redes/en/U06-Switching-security" class="title-link">
+  <a href="/ASIR-Redes/en/u06/" class="title-link">
     U06. Switching, Resilience, and L2 Security
   </a>
   <p class="desc">
     Advanced Ethernet switching, loop prevention via Spanning Tree Protocol (STP/RSTP), link aggregation, and Layer 2 security hardening.
   </p>
-  <a href="/ASIR-Redes/en/U06-Switching-security" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u06/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
@@ -154,13 +154,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U07</span>
     <span class="ra">LO5</span>
   </div>
-  <a href="/ASIR-Redes/en/U07-VLAN" class="title-link">
+  <a href="/ASIR-Redes/en/u07/" class="title-link">
     U07. VLAN
   </a>
   <p class="desc">
     Broadcast domain segmentation, IEEE 802.1Q trunk links, and inter-VLAN routing using Router-on-a-Stick and multilayer switches.
   </p>
-  <a href="/ASIR-Redes/en/U07-VLAN" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u07/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
@@ -168,13 +168,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U08</span>
     <span class="ra">LO4</span>
   </div>
-  <a href="/ASIR-Redes/en/U08-Static-routing-ACL" class="title-link">
+  <a href="/ASIR-Redes/en/u08/" class="title-link">
     U08. Static Routing and ACLs
   </a>
   <p class="desc">
     IP routing fundamentals, routing tables, static and default routes, and traffic filtering using standard and extended Access Control Lists.
   </p>
-  <a href="/ASIR-Redes/en/U08-Static-routing-ACL" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u08/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
@@ -182,13 +182,13 @@ U10  WAN, Internet, and NAT
     <span class="num">U09</span>
     <span class="ra">LO6</span>
   </div>
-  <a href="/ASIR-Redes/en/U09-Dynamic-routing" class="title-link">
+  <a href="/ASIR-Redes/en/u09/" class="title-link">
     U09. Dynamic Routing
   </a>
   <p class="desc">
-    Distance-vector and link-state (OSPF) routing protocols, metric computation, neighbor relationships, and network convergence.
+    Distance-vector and link-state routing protocols, metric computation, neighbor relationships, and network convergence.
   </p>
-  <a href="/ASIR-Redes/en/U09-Dynamic-routing" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u09/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
@@ -196,23 +196,22 @@ U10  WAN, Internet, and NAT
     <span class="num">U10</span>
     <span class="ra">LO7</span>
   </div>
-  <a href="/ASIR-Redes/en/U10-WAN-NAT" class="title-link">
+  <a href="/ASIR-Redes/en/u10/" class="title-link">
     U10. WAN, Internet, and NAT
   </a>
   <p class="desc">
     Wide area network access technologies, enterprise Internet connectivity, static NAT, dynamic NAT, and Port Address Translation (PAT).
   </p>
-  <a href="/ASIR-Redes/en/U10-WAN-NAT" class="unit-link">👉 View unit 👈</a>
+  <a href="/ASIR-Redes/en/u10/" class="unit-link">View unit</a>
 </div>
 
 </div>
 
 ## License
 
-
 <div align="center">
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">
-    <img src="/ASIR-Redes/cc-by-sa.png" alt="CC BY-SA 4.0" width="88" height="31" />
+    <img src="/ASIR-Redes/cc-by-sa.png" alt="CC BY-SA 4.0" width="88" height="31">
   </a>
   <p style="font-size:0.8rem;color:var(--sl-color-gray-3);margin-top:0.5rem;">
     <strong>Carlos Sanchez</strong> — CC BY-SA 4.0

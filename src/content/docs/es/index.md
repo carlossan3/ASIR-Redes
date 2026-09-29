@@ -1,23 +1,23 @@
 ---
-title: "Inicio"
-description: "Apuntes de Planificación y Administración de Redes de ASIR — 10 unidades de trabajo. CC BY-SA 4.0 — Carlos Sanchez"
+title: "Home"
+description: "Network Planning and Administration Notes (ASIR) — 10 study units. CC BY-SA 4.0 — Carlos Sanchez"
 ---
 
 <div align="center">
   <img
     src="/ASIR-Redes/portada.png"
-    alt="Planificación y Administración de Redes — ASIR. Apuntes con teoría, prácticas, routing y administración."
+    alt="Network Planning and Administration — ASIR. Notes covering theory, labs, routing, and administration."
     style="max-width:100%;height:auto;border-radius:12px;margin:0 0 1.5rem;box-shadow:0 8px 40px rgba(0,0,0,0.15);"
-  />
+  >
 </div>
 
 <div align="center" style="margin-bottom:2rem;">
-  <a href="/ASIR-Redes/U01-Fundamentos" style="display:inline-block;padding:0.75rem 2rem;background:linear-gradient(135deg,#2563eb,#1a4060);color:#fff;border-radius:8px;text-decoration:none;font-weight:600;margin:0.25rem 0.5rem;">Empezar por la U01</a>
-  <a href="https://github.com/carlossan3/ASIR-Redes" style="display:inline-block;padding:0.75rem 2rem;background:var(--sl-color-gray-5);color:var(--sl-color-white);border-radius:8px;text-decoration:none;font-weight:600;margin:0.25rem 0.5rem;">Ver en GitHub</a>
+  <a href="/ASIR-Redes/en/u01/" style="display:inline-block;padding:0.75rem 2rem;background:linear-gradient(135deg,#2563eb,#1a4060);color:#fff;border-radius:8px;text-decoration:none;font-weight:600;margin:0.25rem 0.5rem;">Start with Unit 01</a>
+  <a href="https://github.com/carlossan3/ASIR-Redes" style="display:inline-block;padding:0.75rem 2rem;background:var(--sl-color-gray-5);color:var(--sl-color-white);border-radius:8px;text-decoration:none;font-weight:600;margin:0.25rem 0.5rem;">View on GitHub</a>
 </div>
 
 <div align="center">
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
     <img src="/ASIR-Redes/cc-by-sa.png" alt="CC BY-SA 4.0" width="88" height="31">
   </a>
   <p style="font-size:0.8rem;color:var(--sl-color-gray-3);margin-top:0.5rem;">
@@ -26,194 +26,192 @@ description: "Apuntes de Planificación y Administración de Redes de ASIR — 1
 </div>
 
 <div class="download-bar">
-  <p class="download-msg">¿Prefieres estudiar sin conexión? Descarga los apuntes completos</p>
+  <p class="download-msg">Prefer studying offline? Download the complete notes</p>
   <div class="download-links">
-    <a href="/ASIR-Redes/pdf/Apuntes_Planificacion_Redes_ASIR.pdf" class="dl-btn">PDF</a>
-    <a href="/ASIR-Redes/epub/Apuntes_Planificacion_Redes_ASIR.epub" class="dl-btn">EPUB</a>
+    <a href="/ASIR-Redes/pdf/Network_Planning_and_Administration_ASIR.pdf" class="dl-btn">PDF</a>
+    <a href="/ASIR-Redes/epub/Network_Planning_and_Administration_ASIR.epub" class="dl-btn">EPUB</a>
   </div>
 </div>
 
 ---
 
-## El recorrido del curso
+## Course Roadmap
 
-En **Planificación y Administración de Redes** profundizarás en el diseño, despliegue, direccionamiento avanzado, encaminamiento y seguridad en entornos profesionales de redes.
+In **Network Planning and Administration**, you will explore network architecture and become proficient in **planning, configuring, routing, securing, and troubleshooting complex enterprise networks**.
 
 ```text
-U01  Fundamentos y arquitectura
+U01  Fundamentals and Architecture
  ↓
-U02  Capas, encapsulación y análisis
+U02  Layers, Encapsulation, and Analysis
  ↓
-U03  Infraestructura y conectividad
+U03  Infrastructure and Connectivity
  ↓
-U04  IPv4, subnetting, VLSM, CIDR y DHCP
+U04  IPv4, Subnetting, VLSM, CIDR, and DHCP
  ↓
-U05  IPv6 y autoconfiguración
+U05  IPv6 and Autoconfiguration
  ↓
-U06  Switching, resiliencia y seguridad L2
+U06  Switching, Resilience, and L2 Security
  ↓
 U07  VLAN
  ↓
-U08  Routing estático y ACL
+U08  Static Routing and ACLs
  ↓
-U09  Routing dinámico
+U09  Dynamic Routing
  ↓
-U10  WAN, Internet y NAT
+U10  WAN, Internet, and NAT
 ```
 
-## 📚 Unidades de trabajo
+## Study Units
 
 <div class="unit-grid">
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U01</span>
-    <span class="ra">RA1</span>
+    <span class="ra">LO1</span>
   </div>
-  <a href="/ASIR-Redes/U01-Fundamentos" class="title-link">
-    U01. Fundamentos y arquitectura
+  <a href="/ASIR-Redes/en/u01/" class="title-link">
+    U01. Fundamentals and Architecture
   </a>
   <p class="desc">
-    Fundamentos, modelos de referencia, diseño de arquitecturas y principios de funcionamiento de redes.
+    Foundations, reference models, architectural design, and fundamental networking operating principles.
   </p>
-  <a href="/ASIR-Redes/U01-Fundamentos" class="unit-link">👉 Empezar por aquí 👈</a>
+  <a href="/ASIR-Redes/en/u01/" class="unit-link">Start here</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U02</span>
-    <span class="ra">RA1</span>
+    <span class="ra">LO1</span>
   </div>
-  <a href="/ASIR-Redes/U02-Capas_encapsulacion" class="title-link">
-    U02. Capas, encapsulación y análisis
+  <a href="/ASIR-Redes/en/u02/" class="title-link">
+    U02. Layers, Encapsulation, and Analysis
   </a>
   <p class="desc">
-    Modelos OSI y TCP/IP, flujo de tramas y paquetes, protocolos clave e inspección de tráfico con analizadores.
+    OSI and TCP/IP models, frame and packet flows, core protocols, and traffic inspection with network analyzers.
   </p>
-  <a href="/ASIR-Redes/U02-Capas_encapsulacion" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u02/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U03</span>
-    <span class="ra">RA2</span>
+    <span class="ra">LO2</span>
   </div>
-  <a href="/ASIR-Redes/U03-Infraestructura_conectividad" class="title-link">
-    U03. Infraestructura y conectividad
+  <a href="/ASIR-Redes/en/u03/" class="title-link">
+    U03. Infrastructure and Connectivity
   </a>
   <p class="desc">
-    Medios de transmisión guiados e inalámbricos, cableado estructurado, racks y dispositivos de conexión física.
+    Guided and wireless transmission media, structured cabling systems, server racks, and physical connection equipment.
   </p>
-  <a href="/ASIR-Redes/U03-Infraestructura_conectividad" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u03/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U04</span>
-    <span class="ra">RA2</span>
+    <span class="ra">LO2</span>
   </div>
-  <a href="/ASIR-Redes/U04-IPv4_subnetting" class="title-link">
-    U04. IPv4, subnetting, VLSM, CIDR y DHCP
+  <a href="/ASIR-Redes/en/u04/" class="title-link">
+    U04. IPv4, Subnetting, VLSM, CIDR, and DHCP
   </a>
   <p class="desc">
-    Diseño de esquemas de direccionamiento IPv4, cálculo de subredes con máscara fija y variable, agregación CIDR y asignación automática con DHCP.
+    IPv4 addressing scheme design, fixed and variable-length subnet mask calculation, CIDR aggregation, and automatic allocation with DHCP.
   </p>
-  <a href="/ASIR-Redes/U04-IPv4_subnetting" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u04/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U05</span>
-    <span class="ra">RA2</span>
+    <span class="ra">LO2</span>
   </div>
-  <a href="/ASIR-Redes/U05-IPv6" class="title-link">
-    U05. IPv6 y autoconfiguración
+  <a href="/ASIR-Redes/en/u05/" class="title-link">
+    U05. IPv6 and Autoconfiguration
   </a>
   <p class="desc">
-    Estructura de direcciones IPv6, tipos de unicast/multicast, mecanismos de resolución NDP, SLAAC y DHCPv6.
+    IPv6 address architecture, unicast and multicast scopes, NDP resolution mechanisms, SLAAC, and DHCPv6 deployment.
   </p>
-  <a href="/ASIR-Redes/U05-IPv6" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u05/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U06</span>
-    <span class="ra">RA3</span>
+    <span class="ra">LO3</span>
   </div>
-  <a href="/ASIR-Redes/U06-Switching_seguridad" class="title-link">
-    U06. Switching, resiliencia y seguridad L2
+  <a href="/ASIR-Redes/en/u06/" class="title-link">
+    U06. Switching, Resilience, and L2 Security
   </a>
   <p class="desc">
-    Conmutación Ethernet avanzada, prevención de bucles con Spanning Tree Protocol (STP/RSTP), agregación de enlaces y protección del plano de capa 2.
+    Advanced Ethernet switching, loop prevention via Spanning Tree Protocol (STP/RSTP), link aggregation, and Layer 2 security hardening.
   </p>
-  <a href="/ASIR-Redes/U06-Switching_seguridad" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u06/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U07</span>
-    <span class="ra">RA5</span>
+    <span class="ra">LO5</span>
   </div>
-  <a href="/ASIR-Redes/U07-VLAN" class="title-link">
+  <a href="/ASIR-Redes/en/u07/" class="title-link">
     U07. VLAN
   </a>
   <p class="desc">
-    Segmentación lógica de dominios de difusión, enlaces troncales 802.1Q, enrutamiento inter-VLAN (Router-on-a-Stick y switches multicapa).
+    Broadcast domain segmentation, IEEE 802.1Q trunk links, and inter-VLAN routing using Router-on-a-Stick and multilayer switches.
   </p>
-  <a href="/ASIR-Redes/U07-VLAN" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u07/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U08</span>
-    <span class="ra">RA4</span>
+    <span class="ra">LO4</span>
   </div>
-  <a href="/ASIR-Redes/U08-Routing_estatico_ACL" class="title-link">
-    U08. Routing estático y ACL
+  <a href="/ASIR-Redes/en/u08/" class="title-link">
+    U08. Static Routing and ACLs
   </a>
   <p class="desc">
-    Principios de encaminamiento IP, tablas de rutas, rutas estáticas y por defecto, y filtrado de tráfico mediante listas de control de acceso estándar y extendidas.
+    IP routing fundamentals, routing tables, static and default routes, and traffic filtering using standard and extended Access Control Lists.
   </p>
-  <a href="/ASIR-Redes/U08-Routing_estatico_ACL" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u08/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U09</span>
-    <span class="ra">RA6</span>
+    <span class="ra">LO6</span>
   </div>
-  <a href="/ASIR-Redes/U09-Routing_dinamico" class="title-link">
-    U09. Routing dinámico
+  <a href="/ASIR-Redes/en/u09/" class="title-link">
+    U09. Dynamic Routing
   </a>
   <p class="desc">
-    Protocolos de encaminamiento basados en vector distancia y estado de enlace (OSPF), cálculo de métricas y convergencia de red.
+    Distance-vector and link-state routing protocols, metric computation, neighbor relationships, and network convergence.
   </p>
-  <a href="/ASIR-Redes/U09-Routing_dinamico" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u09/" class="unit-link">View unit</a>
 </div>
 
 <div class="unit-card">
   <div class="unit-card-header">
     <span class="num">U10</span>
-    <span class="ra">RA7</span>
+    <span class="ra">LO7</span>
   </div>
-  <a href="/ASIR-Redes/U10-WAN_NAT" class="title-link">
-    U10. WAN, Internet y NAT
+  <a href="/ASIR-Redes/en/u10/" class="title-link">
+    U10. WAN, Internet, and NAT
   </a>
   <p class="desc">
-    Tecnologías de acceso y enlaces WAN, interconexión corporativa a Internet, NAT estático, dinámico y PAT (Port Address Translation).
+    Wide area network access technologies, enterprise Internet connectivity, static NAT, dynamic NAT, and Port Address Translation (PAT).
   </p>
-  <a href="/ASIR-Redes/U10-WAN_NAT" class="unit-link">👉 Ver unidad 👈</a>
+  <a href="/ASIR-Redes/en/u10/" class="unit-link">View unit</a>
 </div>
 
 </div>
 
----
-
-## Licencia
+## License
 
 <div align="center">
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">
-    <img src="/ASIR-Redes/cc-by-sa.png" alt="CC BY-SA 4.0" width="88" height="31" />
+    <img src="/ASIR-Redes/cc-by-sa.png" alt="CC BY-SA 4.0" width="88" height="31">
   </a>
   <p style="font-size:0.8rem;color:var(--sl-color-gray-3);margin-top:0.5rem;">
     <strong>Carlos Sanchez</strong> — CC BY-SA 4.0
