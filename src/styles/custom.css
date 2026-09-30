@@ -1,11 +1,18 @@
-/* === JUSTIFICACIÓN GLOBAL === */
+/* === LEGIBILIDAD GLOBAL === */
 .sl-markdown-content {
-  text-align: justify;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.sl-markdown-content p,
+.sl-markdown-content li {
+  line-height: 1.7;
 }
 
 /* === FUENTE Y PALETA === */
 :root {
-  --sl-font: Arial, Helvetica, sans-serif;
+  --sl-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --sl-color-accent-low: #0a1e30;
   --sl-color-accent: #2563eb;
   --sl-color-accent-high: #6bb5e0;
@@ -68,7 +75,7 @@
   height: 200%;
   background: radial-gradient(circle at 30% 50%, rgba(78, 205, 196, 0.15) 0%, transparent 60%),
               radial-gradient(circle at 70% 30%, rgba(37, 99, 235, 0.2) 0%, transparent 50%);
-  animation: heroGlow 8s ease-in-out infinite alternate;
+  animation: none;
 }
 @keyframes heroGlow {
   0% { transform: translate(0, 0) rotate(0deg); }
@@ -170,8 +177,12 @@
   border-radius: 0.85rem;
   border: 1px solid rgba(37, 99, 235, 0.12);
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(8px);
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(4px);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
   color: inherit !important;
   position: relative;
   overflow: hidden;
@@ -192,8 +203,8 @@
   transform: scaleX(1);
 }
 .unit-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 40px -12px rgba(37, 99, 235, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -12px rgba(37, 99, 235, 0.25);
   border-color: var(--sl-color-accent);
   background: rgba(255, 255, 255, 0.75);
 }
@@ -205,7 +216,7 @@
 }
 .unit-card-header .num {
   display: inline-block;
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   font-weight: 700;
   color: #fff;
   background: var(--sl-color-accent);
@@ -215,7 +226,7 @@
   letter-spacing: 0.05em;
 }
 .unit-card-header .ra {
-  font-size: 0.6rem;
+  font-size: 0.72rem;
   color: var(--sl-color-gray-3);
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -233,9 +244,9 @@
   color: var(--sl-color-accent) !important;
 }
 .unit-card .desc {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--sl-color-gray-3);
-  line-height: 1.45;
+  line-height: 1.55;
   margin: 0.4rem 0 0.6rem;
   flex: 1;
 }
@@ -296,7 +307,7 @@
   gap: 0.2rem;
   padding: 0.35rem 0.7rem;
   border-radius: 2rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: #fff !important;
   background: linear-gradient(135deg, var(--sl-color-accent), #3d8ec4);
@@ -318,9 +329,9 @@
   display: block;
   width: fit-content;
   margin: 0.3rem auto 0;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 0.35rem 0.85rem;
+  padding: 0.4rem 0.9rem;
   border-radius: 2rem;
   background: linear-gradient(135deg, var(--sl-color-accent), #3d8ec4);
   color: #fff !important;
@@ -386,14 +397,32 @@
   background: linear-gradient(135deg, #040c15 0%, #0a1e30 40%, #1a4060 100%) !important;
 }
 
-/* Cuando el idioma de la página es español, ocultar los ítems de inglés */
-html[lang="es"] aside .nav-en,
-html[lang="es"] aside li:has(.nav-en) {
-  display: none !important;
+/* === MEJORAS DE LEGIBILIDAD Y ACCESIBILIDAD === */
+
+:root[data-theme="dark"] .sidebar .sidebar-content ul li a[aria-current="page"] {
+  background: rgba(37, 99, 235, 0.18);
+  color: #93c5fd !important;
 }
 
-/* Cuando el idioma de la página es inglés, ocultar los ítems de español */
-html[lang="en"] aside .nav-es,
-html[lang="en"] aside li:has(.nav-es) {
-  display: none !important;
+:root[data-theme="dark"] .sidebar .sidebar-content > ul > li > a,
+:root[data-theme="dark"] .sidebar .sidebar-content > ul > li > details > summary > span > span {
+  color: #e5e7eb !important;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--sl-color-accent-high);
+  outline-offset: 3px;
+  border-radius: 0.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
