@@ -47,6 +47,10 @@
   --sl-sidebar-width: 18rem;
 }
 
+.sidebar-content {
+  font-size: 0.88rem;
+}
+
 /* === LANDING PAGE FULL-WIDTH === */
 .home-page .main-frame {
   max-width: 100% !important;

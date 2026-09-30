@@ -1,6 +1,7 @@
 ---
 title: "Home"
 description: "Network Planning and Administration Notes (ASIR) — 10 study units. CC BY-SA 4.0 — Carlos Sanchez"
+template: splash
 ---
 
 <div align="center">
