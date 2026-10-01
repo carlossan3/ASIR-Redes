@@ -45,8 +45,8 @@
 
 /* Ancho de Sidebar y Contenidos */
 :root {
-  --sl-sidebar-width: clamp(13rem, 14vw, 18rem); /* clamp(mínimo, valor preferido, máximo) */
-  --sl-content-width: min(72rem, calc(100vw - var(--sl-sidebar-width) - 6rem));
+  --sl-sidebar-width: clamp(13rem, 15vw, 18rem); /* clamp(mínimo, valor preferido, máximo) */
+  --sl-content-width: min(72rem, calc(100vw - var(--sl-sidebar-width) - 7rem));
 }
 
 .sidebar-content {
