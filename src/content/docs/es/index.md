@@ -1,7 +1,6 @@
 ---
 title: "Inicio"
 description: "Apuntes de Planificación y Administración de Redes de ASIR — 10 unidades de trabajo. CC BY-SA 4.0 — Carlos Sanchez"
-template: splash
 ---
 
 <div align="center">
